@@ -1,0 +1,50 @@
+cs:
+  budget_title: Rozpočet
+  field_cost_per_hour: Cena za hodinu
+  field_total_hours: Celkem hodin
+  field_overhead: Strop
+  label_overhead: "Strop: "
+  field_materials: Cena materiálu
+  label_materials: "Materiály: "
+  field_profit: Zisk
+  field_budget: Celkový rozpočet
+  label_budget: "Celkový rozpočet: "
+  field_fixed_cost: Pevná cena
+  field_project_manager_signoff: Značka projektového manažera
+  field_client_signoff: Značka klienta
+  field_deliverable: K dodání
+  field_deliverable_subject: K dodání
+  field_due: Splatnost
+  label_member_rate: Zhodnocení (Kč)
+  label_currency: Kč
+  message_updated_issues: upraveno %d úkolů
+  message_budget_settings: Vložte množství v korunách, nebo procento do každého z polí k nastavení výchozí hodnoty množství. Použijte <strong>%%</strong> v poli pro procenta.
+  label_non_billable_overhead: Nezúčtovatelné režie
+  label_materials: Materiály
+  label_profit: Zisk
+  label_new_deliverable: Nové dodání
+  label_fixed_cost: Pevná cena
+  caption_due: Splatnost
+  caption_progress: Postup
+  caption_subject: Předmět
+  caption_score: Hodnocení
+  caption_budget: Rozpočet
+  caption_labor_budget: Rozpočet práce
+  caption_spent: Vyčerpáno
+  label_update_deliverable: Upravit dodání
+  label_labor_budget: "Rozpočet práce: "
+  label_labor_budget_spent: "Vyčerpaný rozpočet práce: "
+  label_labor_budget_remaining: "Zbývající rozpočet práce: "
+  label_progress: "Postup: "
+  label_budget_score: "Hodnocení rozpočtu: "
+  label_overruns: "Překročení: "
+  label_missing_on: Schází
+  label_next_due_date: "Další datum splatnosti: "
+  label_completion: "Dokončení: "
+  label_potential_profit: "Potenciální zisk: "
+  label_bulk_assign: Hromadné přiřazení
+  label_labor: "Práce: "
+  label_fixed_amount: "Pevné množství: "
+  label_hours_estimated: "Hodinový odhad: "
+  label_hours_used: "Hodin využito: "
+  label_toggle_all: "Rozbalit všechny řádky s dodáním"
