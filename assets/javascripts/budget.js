@@ -3,10 +3,6 @@ var BudgetModule = Class.create();
 Object.extend(BudgetModule.prototype, {
     initialize: function () {},
 
-    // number to currency options
-//    var options = new Hash();
-//    options.set('delimiter', ' ');
-////    options.set('unit', ' ');
     toAmount: function(value) {
         var amount = value.replace(/[^1234567890.]/ig,'');
         if (amount) {
