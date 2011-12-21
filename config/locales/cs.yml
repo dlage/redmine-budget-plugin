@@ -48,3 +48,9 @@ cs:
   label_hours_estimated: "Hodinový odhad: "
   label_hours_used: "Hodin využito: "
   label_toggle_all: "Rozbalit všechny řádky s dodáním"
+
+  number:
+    currency:
+      format:
+        format: "%n %u"
+        unit: "Kč"
