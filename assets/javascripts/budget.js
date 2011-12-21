@@ -3,6 +3,10 @@ var BudgetModule = Class.create();
 Object.extend(BudgetModule.prototype, {
     initialize: function () {},
 
+    // number to currency options
+//    var options = new Hash();
+//    options.set('delimiter', ' ');
+////    options.set('unit', ' ');
     toAmount: function(value) {
         var amount = value.replace(/[^1234567890.]/ig,'');
         if (amount) {
@@ -75,19 +79,18 @@ Object.extend(BudgetModule.prototype, {
 
         Budget.updateAmounts();
     },
-
     // Rails-like number_to_currency currency formatting
     // http://snippets.dzone.com/posts/show/4646
     number_to_currency: function (number, options) {
         try {
             var options   = options || {};
             var precision = options["precision"] || 2;
-            var unit      = options["unit"] || "$";
+            var unit      = options["unit"] || " Kč";
             var separator = precision > 0 ? options["separator"] || "." : "";
-            var delimiter = options["delimiter"] || ",";
+            var delimiter = options["delimiter"] || " ";
 
             var parts = parseFloat(number).toFixed(precision).split('.');
-            return unit + Budget.number_with_delimiter(parts[0], delimiter) + separator + parts[1].toString();
+            return Budget.number_with_delimiter(parts[0], delimiter) + separator + parts[1].toString() + unit;
         } catch(e) {
             return number;
         }
