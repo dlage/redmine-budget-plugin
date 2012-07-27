@@ -1,4 +1,5 @@
 cs:
+  project_module_budget_module: "Rozpočet"
   budget_title: Rozpočet
   field_cost_per_hour: Cena za hodinu
   field_total_hours: Celkem hodin
